@@ -17,7 +17,7 @@ export function AuthProvider({ children }) {
       // console.log(savedToken);
       // Confirming that my token is saved
       setToken(savedToken);
-      setLocation("TABLET");
+      setLocation("TUNNEL");
     }
   }, []);
 

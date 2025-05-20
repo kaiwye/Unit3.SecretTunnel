@@ -35,6 +35,7 @@ export default function Entrance() {
           <input
             name="name"
             value={name}
+            required
             onChange={(e) => setName(e.target.value)}
           />
         </label>
